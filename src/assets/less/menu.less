@@ -1,0 +1,164 @@
+.menu {
+    .van-search{
+        position: sticky;
+        top: 0px;
+        z-index: 9;
+    }
+    
+
+    .menu-box{
+        .van-tabs--line .van-tabs__wrap{
+            margin-top: 10px;
+            height: 78px;
+            position: sticky;
+            top: 52px;
+            z-index: 8;
+            .van-tab__text--ellipsis {
+                text-align: center;
+                font-weight: bold;
+                
+            }
+        }
+
+        .menu-list{
+            margin-top: 20px;
+            padding: 10px;
+            .van-card{
+                background-color: #f5f3f3;
+                border-radius: 10px;
+                box-shadow: 1px 1px 0 1px #ececec;
+                .van-card__bottom{
+                    margin-top: 10px;
+                    .van-card__price{
+                        color: #0b34ba;
+                        font-weight: bold;
+                        font-size: 20px;
+                        .van-card__price-integer{
+                        font-size: 20px;
+    
+                        }
+                    }
+                    .van-card__num{
+                        transform: translateY(-10px);
+                    }
+                }
+                .van-card__title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    line-height: 24px;
+                }
+                .van-card__thumb{
+                    margin-right: 15px;
+                }
+                .van-card__tag{
+                    position: absolute;
+                    top: -5px;
+                    left: 0;
+                }
+            }
+        }
+    }
+    .van-swipe__indicators{
+        left: 80%;
+      }
+      .van-swipe__indicator{
+        opacity: 1;
+        border-radius: 25%;
+        transition: all .3s;
+      }
+      .van-swipe__indicator--active{
+        width: 18px;
+      }
+
+
+      .shop-title{
+          margin-bottom: 30px;
+          text-align: center;
+          font-size: 20px;
+          margin-top: 10px;
+      }
+      .detail-info{
+        position: relative;
+        top: -30px;
+        background-color: #fff;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding: 20px;
+        .rule-box{
+            border-bottom: 1px solid #e8e8e8;
+          }
+        
+          .rule-item{
+            margin-bottom: 20px;
+          }
+        
+          .rule-item-title,.rule-item-tag{
+            height: 26px;
+            width: 60px;
+            font-size: 14px;
+            line-height: 26px;
+            color: #444;
+          }
+        
+          .rule-item-tag{
+            width: 70px;
+            background-color: #EBEBEB;
+            text-align: center;
+            border-radius: 13px;
+            color: #6A6A6A;
+            margin-right: 20px;
+            font-size: 12px;
+            &:last-child{
+              margin-right: 0;
+            }
+            &.active{
+              background-color: #6A91EC;
+              color: #fff;
+            }
+          }
+        
+          .desc-box{
+            margin-top: 20px;
+            border-bottom: 1px solid #e8e8e8;
+            padding-bottom: 20px;
+          }
+        
+          .desc-title{
+            font-size: 14px;
+            color: #444;
+            margin-bottom: 20px;
+          }
+        
+          .desc-text{
+            margin-bottom: 10px;
+            font-size: 12px;
+            color: #999;
+            &:last-child{
+              margin-bottom: 0;
+            }
+          }
+        
+          .desc-price-count{
+            margin-top: 20px;
+          }
+        
+          .price{
+            color: #0C34BA;
+            font-size: 14px;
+            font-weight: bold;
+            height: 24px;
+            line-height: 24px;
+          }
+          /deep/ .van-stepper--round .van-stepper__plus{
+            background-color: #0C34BA;
+          }
+        
+          /deep/ .van-stepper--round .van-stepper__minus{
+            color: #0C34BA;
+            border-color: #0C34BA;
+          }
+      }
+      .van-goods-action-button--last{
+        margin-right: 20px;
+      }
+}
